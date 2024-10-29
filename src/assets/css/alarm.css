@@ -1,0 +1,221 @@
+/*--------------------------------------------------------------
+	alarm
+--------------------------------------------------------------*/
+a {
+    text-decoration: none !important;
+}
+.alarm p {
+    float: left;
+}
+.alarm .list_btn {
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.sub_table.alarm tr td:nth-child(3){
+    color: #06A786;
+}
+.modal_datepicker {
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0px 5px;
+}
+.icon_img {
+    width: 18px;
+    margin-right: 10px;
+}
+#alarm_add .sub_table tr td p {
+    font-size: 20px;
+}
+
+
+/*--------------------------------------------------------------
+ calendar
+--------------------------------------------------------------*/
+.calendar {
+    clear: both;
+}
+.calendar ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 0;
+}
+.calendar .weeks {
+    background-color: #06a786;
+    border-radius: 40px 40px 0 0;
+}
+.calendar .weeks li {
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 0;
+}
+.calendar .days {
+    margin-bottom: 20px;
+    border-left: 1px solid #a5a5a5;
+}
+.calendar ul li {
+    width: calc(100% / 7);
+    position: relative;
+}
+.calendar .days li {
+    height: 140px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    border-bottom: 1px solid #a5a5a5;
+    border-right: 1px solid #a5a5a5;
+    text-align: left;
+    padding: 15px;
+    z-index: 1;
+}
+.calendar .days li p {
+    float: none;
+    text-align: center;
+}
+.calendar .days li p img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.days li.inactive {
+    color: #aaa;
+}
+ul.check_sticker {
+    list-style: none;
+}
+ul.check_sticker li {
+    width: 176px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+}
+ul.check_sticker li.active {
+    border: 2px solid #06A786;
+}
+ul.check_sticker p {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+/*--------------------------------------------------------------
+ modal
+--------------------------------------------------------------*/
+
+.modal .modal-header {
+    border-bottom: 3px solid #05725A !important;
+    margin-bottom: 30px !important;
+}
+.modal .modal-dialog {
+	max-width: 690px !important;
+}
+.modal .modal-content {
+    width: 690px !important;
+    max-width: 100% !important;
+    padding: 50px !important;
+    border-radius: 30px !important;
+}
+.modal .modal-body {
+    padding: 0 20px 30px !important;
+}
+.modal .modal-title {
+    font-size: 32px !important;
+    font-weight: 500 !important;;
+}
+.modal .modal-footer {
+    border-top: 1px solid #a5a5a5 !important;
+}
+
+.modal h3 {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #333 !important;
+}
+
+select {
+    -webkit-appearance:none !important;
+    -moz-appearance:none !important;
+    appearance:none !important; 
+}
+select {
+    background:url('../../assets/img/alarm/sel_arrow.png') no-repeat 80% 50%/9px auto !important;
+    border: 1px solid #a5a5a5 !important;
+    border-radius: 10px !important;    
+    padding: 10px 40px 10px 20px !important;
+}
+
+.modal input,
+.modal textarea {
+    border: 1px solid #a5a5a5 !important;
+    border-radius: 10px !important;    
+    padding: 10px 20px !important;
+}
+
+/*--------------------------------------------------------------
+# react modal
+-----------------------------------------------------------*/
+.ReactModalPortal {
+    position: absolute !important;
+    z-index: 9999 !important;
+}
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+.btn-close {
+    position: absolute;
+    right: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# alarm page - 767px
+-----------------------------------------------------------*/
+@media (max-width: 767px) {
+	.alarm p,
+	.calendar .weeks li,
+	.calendar .days li {
+		font-size: 14px;
+	}
+	.alarm .list_btn {
+		font-size: 14px;
+	}
+	.calendar .weeks {
+    	border-radius: 20px 20px 0 0;
+	}
+	.calendar .days li p img {
+		height: 20px;
+	}
+	.calendar .days li {
+		padding: 5px;
+	}
+	
+	.modal .modal-title {
+		font-size: 26px !important;
+	}
+	.modal .modal-content {
+		padding: 10px;
+	}
+	.modal input, .modal textarea {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	ul.check_sticker li {
+    	width: 32%;
+    	height: 120px;
+    	padding: 15px;
+	}
+	ul.check_sticker li img {
+		height: 30px;
+	}
+}

@@ -1,0 +1,62 @@
+/* .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 화면 높이 전체를 차지하도록 설정
+} */
+a {
+    text-decoration: none !important;
+}
+.txt-cont {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 150PX auto;
+    /* background-color: antiquewhite; */
+    color: #797979;
+}
+.txt-cont p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.txt-cont .hotelmaps01 {
+    font-size: small;
+    line-height: 30px;
+}
+.txt-cont .hotelmaps02 {
+    font-weight: bolder;
+    line-height: 30px;
+}
+.txt-cont .hotelmaps03 {
+	line-height: 60px;
+ 	font-weight: 700; 
+    font-size: 35px;
+    color: #06A786;
+    margin: 0;
+}
+.txt-cont .hotelmaps031 {
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.txt-cont .hotelmaps042 {
+	line-height: 50px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/*--------------------------------------------------------------
+# hotel page - 767px
+-----------------------------------------------------------*/
+@media (max-width: 767px) {
+	.txt-cont {
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.txt-cont .hotelmaps03 {
+		font-size: 26px;
+	}
+}

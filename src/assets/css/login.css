@@ -1,0 +1,487 @@
+.find-id-container {
+	text-align: center;
+	/*width: 100%;*/
+	max-width: 400px;
+	padding-bottom: 40px;
+	margin: 50px auto 0;
+}
+
+.find-id-container h2 {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.find-id-container .form-group {
+	margin-bottom: 10px; /* Reduced margin-bottom to make fields closer */
+	text-align: left;
+}
+
+.find-id-container label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold; /* Make the label text bold */
+}
+
+.find-id-container input[type='text'],
+.find-id-container input[type='email'] {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #00a17a;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 10px; /* Reduced margin-bottom for input fields */
+}
+
+.find-id-container button[type='submit'] {
+	width: 100%;
+	padding: 10px;
+	background-color: #00a17a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 15px; /* Slightly larger space above the button */
+}
+
+ .find-pw-container {
+	text-align: center;
+	/*width: 100%;*/
+	max-width: 400px;
+	padding-bottom: 40px;
+	margin: 50px auto 0;
+}
+
+.find-pw-container h2 {
+	font-size: 24px;
+	margin-bottom: 50px;
+}
+
+.find-pw-container .form-group {
+	margin-bottom: 10px; /* Reduced margin-bottom to make fields closer */
+	text-align: left;
+}
+
+.find-pw-container label {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold; /* Make the label text bold */
+}
+
+.find-pw-container input[type='text'],
+.find-pw-container input[type='email'] {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #00a17a;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 10px; /* Reduced margin-bottom for input fields */
+}
+
+.find-pw-container button[type='submit'] {
+	width: 100%;
+	padding: 10px;
+	background-color: #00a17a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 15px; /* Slightly larger space above the button */
+}
+
+.login-container {
+	text-align: center;
+	/*width: 100%;*/
+	max-width: 400px;
+	padding-bottom: 40px;
+	margin: 50px auto 0;
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.login-container h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.login-container .form-group {
+	margin-bottom: 20px; /* 일정한 간격 */
+	text-align: left;
+}
+
+.login-container input[type='text'],
+.login-container input[type='password'] {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 2px solid #00a17a;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.login-container button {
+	width: 100%;
+	padding: 10px;
+	background-color: #00a17a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+ 
+.btn_line {
+	width: 100%;
+    padding: 10px;	    
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid #a5a5a5 !important;
+	border-radius: 5px;
+	background-color: #fff !important;
+	color: #a5a5a5 !important;
+	margin-top: 20px !important;
+}
+
+.social-login {
+	display: flex;
+	flex-direction: column; /* 세로로 나열되도록 설정 */
+	align-items: center; /* 가운데 정렬 */
+	gap: 0;
+}
+
+.social-login button {
+	background: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:10;
+}
+
+	  
+.social-login .naver-login img, .social-login .kakao-login img {
+	width: 150px; 
+	height: 40px; 
+}
+
+.social-login .kakao-login img {
+	width: 150px;
+	height: 40px; 
+	margin-bottom: 30px;
+}
+
+hr.separation-line {
+	margin-top: 100px;
+}
+/*
+.login-container button:hover {
+  background-color: #007a5a;
+} */
+
+.social-login {
+	margin-top: 20px;
+}
+
+.social-login button {
+	width: 100%;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login button img {
+	margin-right: 0;
+	width: 20%; /* 부모 요소에 맞춰 이미지 크기를 자동 조정 */
+	height: auto; /* 비율 유지 */
+}
+
+.naver-login {
+	background-color: #00c73c;
+	color: white;
+	height: 40px; /* 네이버 버튼 높이와 동일하게 설정 */
+	width: 100%; /* 네이버 버튼 폭과 동일하게 설정 */
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.kakao-login {
+	background-color: #fee500;
+	color: #3c1e1e;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.links {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+	color: #888;
+	white-space: nowrap; /* 공백을 없애고 글자가 붙어서 나오도록 설정 */
+	display: inline-block; /* 글자들이 줄 바꿈 없이 붙어서 나오게 함 */
+}
+
+.links a {
+    color: #00a17a;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 12px;
+	color: #888;
+}
+
+.signup-container {
+	text-align: center;
+	/*width: 100%;*/
+	max-width: 400px;
+	padding-bottom: 40px;
+	margin: 50px auto 0;
+}
+
+.signup-container h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.signup-container .form-group {
+	margin-bottom: 20px; /* 일정한 간격 */
+	text-align: left;
+}
+
+.signup-container .form-group label {
+	display: block;
+	margin-bottom: 8px; /* 라벨과 입력란 사이 간격 */
+	font-size: 14px;
+	color: #333;
+	font-weight: bold; /* 글자 bold 처리 */
+}
+
+.signup-container .input-group {
+	position: relative;
+}
+
+.signup-container input[type='text'],
+.signup-container input[type='password'],
+.signup-container input[type='email'],
+.signup-container input[type='tel'] {
+	width: 100%;
+	padding: 10px;
+	padding-right: 100px; /* 버튼 영역 확보를 위해 오른쪽 패딩 추가 */
+	border: 2px solid #00a17a;
+	border-radius: 5px !important;
+	box-sizing: border-box;
+}
+
+.signup-container .input-group .check-btn {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 5px 10px;
+	background-color: #00a17a;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.signup-container .update {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between the buttons */
+    gap: 10px; /* Add space between the buttons */
+    margin-top: 40px;
+}
+
+.signup-container .update button {
+    flex: 1; /* Ensure both buttons take up equal width */
+    padding: 10px;
+    background-color: #00a17a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.signup-container .signup {
+	width: 100%;
+	padding: 10px;
+	background-color: #00a17a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.signup-container .footer-links {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888;
+}
+
+.signup-container .footer-links a {
+	color: #00a17a;
+	text-decoration: none;
+}
+
+.signup-container .footer-links a:hover {
+	text-decoration: underline;
+}
+
+.update-container {
+	text-align: center;
+	width: 100%;
+	max-width: 400px;
+	padding-bottom: 200px;
+}
+
+.update-container h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.update-container .form-group {
+	margin-bottom: 20px; /* 일정한 간격 */
+	text-align: left;
+}
+
+.update-container .form-group label {
+	display: block;
+	margin-bottom: 8px; /* 라벨과 입력란 사이 간격 */
+	font-size: 14px;
+	color: #333;
+	font-weight: bold; /* 글자 bold 처리 */
+}
+
+.update-container .input-group {
+	position: relative;
+}
+
+.update-container input[type='text'],
+.update-container input[type='password'],
+.update-container input[type='email'],
+.update-container input[type='tel'] {
+	width: 100%;
+	padding: 10px;
+	padding-right: 100px; /* 버튼 영역 확보를 위해 오른쪽 패딩 추가 */
+	  border: 2px solid #00a17a;
+	  border-radius: 5px;
+	  box-sizing: border-box;
+}
+
+.update-container .input-group .check-btn {
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	transform: translateY(-50%);
+	padding: 5px 10px;
+	background-color: #00a17a;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	width: 20%;
+}
+
+.update-container .buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.update-container button {
+	width: 48%;
+	padding: 10px;
+	background-color: #00a17a;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.update-container .save-btn {
+	background-color: #00a17a;
+	width: 200px;
+	margin: 3px;
+}
+    
+.update-container .cancel-btn {
+	background-color: #777;
+	width: 200px;
+	margin: 3px;
+}
+
+.update-container .gender {
+	display: flex;
+	justify-content: flex-start; /* 왼쪽 정렬 */
+	margin-bottom: 20px;
+	margin-top: 20px; /* 위아래 간격 동일하게 설정 */
+}
+
+.update-container .gender label {
+	margin-right: 20px;
+}
+
+.update-container .gender input[type='radio'] {
+	margin-right: 5px;
+}
+
+.update-container .footer-links {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #888;
+}
+
+.update-container .footer-links a {
+	color: #00a17a;
+	text-decoration: none;
+}
+
+.update-container .footer-links a:hover {
+	text-decoration: underline;
+}
+
+.form-group .info {
+	font-size: 14px;
+	color: #00a17a;
+}

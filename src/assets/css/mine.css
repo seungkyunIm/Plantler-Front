@@ -1,0 +1,214 @@
+/*--------------------------------------------------------------
+# Mine page
+--------------------------------------------------------------*/
+a {
+    text-decoration: none !important;
+}
+.question-container {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 20px; /* Adds space between questions */
+    margin-bottom: 40px;
+}
+
+.question {
+    flex: 1;
+    min-width: 220px; /* Adjust based on content size */
+    max-width: 300px; /* Keeps questions from getting too wide */
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.question img {
+    max-width: 300px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 75px;
+}
+
+.mine-container2 {
+    display: flex;
+    justify-content: space-between;
+    /*flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 10px; /* Adds space between questions */
+    margin-bottom: 40px;
+}
+
+.mine2 {
+    flex: 1;
+    min-width: 200px; /* Adjust based on content size */
+    max-width: 200px; /* Keeps questions from getting too wide */
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.mine2 img {
+    max-width: 200px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.mine-container3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Adds space between questions */
+    margin-bottom: 40px;
+}
+
+.mine3 {
+    flex: 1;
+    min-width: 420px; /* Adjust based on content size */
+    max-width: 420px; /* Keeps questions from getting too wide */
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.mine3 img {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.options3 {
+    min-width: 820px;
+    max-width: 820px; /* Keeps questions from getting too wide */
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+h6{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.detailname{
+    min-width: 1290px;
+    max-width: 1290px;
+    background-color :#5b636a;
+    color: white !important;
+    border-radius: 5px; /* 원하는 반지름 값으로 설정 */
+
+}
+
+.detailbox{
+    min-width: 1290px;
+    max-width: 1290px;
+    border-style: double;
+}
+.khdetail-container{
+	display: flex; /* Flexbox 사용 */
+	flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.khdetail {
+    position: relative; /* 부모 요소에 상대 위치 추가 */
+    flex: 1 1 calc(50% - 10px);
+    max-width: 400px;
+    height: 150px;
+    border-style: groove;
+}
+
+.khdetail p:nth-child(2) {
+    position: absolute;
+    top: 50%; /* 부모의 50% 위치 */
+    left: 50%;
+    width: 340px;
+    transform: translate(-50%, -50%); /* 중앙 정렬 */
+}
+
+.mine-container4 {
+    display: flex;
+    /* justify-content: space-between;     */
+	flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 10px; /* Adds space between questions */
+    margin-bottom: 40px;
+}
+
+.mine4-container {
+    display: flex;
+    justify-content: space-between;
+}
+.mine4 {
+    flex: 1;
+    min-width: 150px; /* Adjust based on content size */
+    max-width: 150px; /* Keeps questions from getting too wide */
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mine4 img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.options4 {
+    min-width: 700px; /* Adjust based on content size */
+    max-width: 700px; /* Keeps questions from getting too wide */
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.minetag {
+    margin-bottom: 20px;
+}
+.minetag img{
+	width: 3%;
+    margin-right: 10px;
+}
+.minetag button {
+    margin-right: 10px;
+}
+
+.selecbtn {
+    background-color: #4CAF50;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* 
+button:hover {
+    background-color: #45a049;
+} */
+
+
+/*--------------------------------------------------------------
+# Main page - 767px
+-----------------------------------------------------------*/
+@media (max-width: 767px) {
+	.question-container,
+	.mine-container2,
+	.mine-container3 {
+		display: block;	
+	}
+	.question,
+	.mine2 {
+		margin: 0 auto;
+	}
+	.selecbtn {
+	    margin-left: 0 !important;
+	}
+	.mine3 {
+		min-width: 100%;
+	    max-width: 100%;
+	    width: 450px;
+	    box-sizing: border-box;
+	    font-weight: bold;
+	}
+	.minetag img {
+		width: 10%;
+	}
+	.mine-container4 {
+		justify-content: center;
+	}
+	
+}

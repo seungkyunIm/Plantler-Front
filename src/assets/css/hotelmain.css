@@ -1,0 +1,70 @@
+/* .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 화면 높이 전체를 차지하도록 설정
+} */
+a {
+    text-decoration: none !important;
+}
+.txt-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 50px auto;
+    /* background-color: antiquewhite; */
+    color: #797979;
+}
+.txt-cont .logo_icon {
+	width: 61px;
+	height: 76px;
+	text-align: center;
+	margin: 0 auto;
+}
+.txt-cont p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.txt-cont a {
+    color: #06A786;
+}
+
+.txt-cont .hotel01 {
+	line-height:25px;
+    margin: 30px 0;
+}
+.txt-cont .hotel02 {
+	font-weight: bold;
+    font-size: 30px;
+    color: #06A786;
+}
+.txt-cont .hotel04 {
+    margin-top: 30px;
+}
+.txt-cont .hotel09 {
+	font-weight: bold;
+    font-size: 25px;
+    font-weight: 600;
+}
+.txt-cont .block09:hover {
+	color: #ffcf54;
+	transition: .3s;
+}
+
+/*--------------------------------------------------------------
+# hotel page - 767px
+-----------------------------------------------------------*/
+@media (max-width: 767px) {
+	.txt-cont {
+		padding: 20px;
+		margin: 0 auto;
+	}
+	.txt-cont p {
+		font-size: 16px;
+	}
+}
